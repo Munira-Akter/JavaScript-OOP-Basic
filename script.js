@@ -1,18 +1,8 @@
-let student = {
-    name: "Munira",
-    age: 21,
-    job: "MERN",
-};
-
-console.log(student);
-
-function student() {
-
-    this.name = '',
-        this.name = '',
-        this.name = '',
-        this.name = '',
-
+// Construction function
+function Student() {
+    this.name = "Munira";
 }
 
-let stu = new student();
+let stu = new Student();
+
+console.log(stu);
